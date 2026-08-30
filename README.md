@@ -18,7 +18,17 @@
 
 ## 安装
 
-前提：已安装支持 Agent Skills 的客户端（Claude Code、ZCode 等）和 git。
+前提：已安装支持 Agent Skills 的客户端（Claude Code、ZCode 等）。
+
+### 方式一：复制给 AI（最简单）
+
+把下面这句话直接复制给你的 AI 助手（能执行命令的 agent），剩下的它会自己完成：
+
+> 请帮我安装这个 skill：https://github.com/guxiao7538/worldview-profiler ——先阅读仓库的 README 了解它是什么、怎么装，再把它安装到你对应的 skills 目录（Claude Code 是 ~/.claude/skills/，ZCode 是 ~/.zcode/skills/），安装完告诉我怎么触发使用。
+
+### 方式二：自己敲命令
+
+前提：git。
 
 **Claude Code（macOS / Linux / WSL）：**
 
@@ -38,7 +48,11 @@ git clone https://github.com/guxiao7538/worldview-profiler "$env:USERPROFILE\.cl
 git clone https://github.com/guxiao7538/worldview-profiler ~/.zcode/skills/worldview-profiler
 ```
 
-**手动安装**：下载仓库 zip，解压后把 `worldview-profiler` 文件夹放进上表任一 skills 目录，确保 `SKILL.md` 位于 `worldview-profiler/SKILL.md`。
+### 方式三：手动下载
+
+下载仓库 zip，解压后把 `worldview-profiler` 文件夹放进上述任一 skills 目录，确保 `SKILL.md` 位于 `worldview-profiler/SKILL.md`。
+
+> 下载地址里的 `guxiao7538` 是仓库作者的账号、仓库地址的一部分，**无需替换**；安装目标路径以 `~` 开头，指向你自己机器上的用户目录。
 
 安装后重启会话即可。技能只依赖客户端内置能力（读写本地 Markdown 文件），无需联网、无需额外依赖，你的对话与画像文件全部留在本机。
 
