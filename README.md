@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Agent_Skill-Claude_Code_%7C_ZCode_%7C_Cursor-6366F1?style=flat-square" alt="Agent Skill" />
+  <img src="https://img.shields.io/badge/Agent-Universal_Compatible-6366F1?style=flat-square" alt="Universal Agent" />
   <img src="https://img.shields.io/badge/Genealogy-7_Layers_%C3%97_28_Streams-D97706?style=flat-square" alt="Philosophy Genealogy" />
   <img src="https://img.shields.io/badge/Framework-9_Dimensions-059669?style=flat-square" alt="9 Dimensions" />
   <img src="https://img.shields.io/badge/Traceability-100%25_Quote_Backed-DC2626?style=flat-square" alt="Traceability" />
@@ -121,7 +121,7 @@ flowchart TD
 
 ### 方式一：AI 助手一键配置（推荐）
 
-复制下文发给你的日常 Agent（Claude Code、ZCode、Cursor、OpenCode 等）：
+复制下文发给你的 AI 助手（支持 Workbuddy、DeepseekHarness、Cursor、GitHub Copilot、Claude Code 等任意平台）：
 
 ```text
 请帮我安装这个 Agent Skill: https://github.com/guxiao7538/worldview-profiler
